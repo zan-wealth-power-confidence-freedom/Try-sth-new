@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保持觉知</title>
+    <style>
+        /* 整个页面的基础样式 */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 垂直居中 */
+            align-items: center;     /* 水平居中 */
+            background: #fff9f0;     /* 温暖的米黄色背景 */
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            color: #4a4a4a;
+        }
+
+        /* “保持觉知”大字样式 */
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 0.5rem;
+            margin-bottom: 2rem;
+            font-weight: 500;
+            color: #3b3b3b;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+        }
+
+        /* 小猫照片的样式 */
+        .cat-image {
+            width: 80vw;
+            max-width: 400px;        /* 最大宽度 400px，防止在大屏幕上太大 */
+            border-radius: 24px;     /* 圆角，看起来很柔和 */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* 阴影，更有立体感 */
+            object-fit: cover;
+            transition: transform 0.3s ease; /* 鼠标悬停时的动画过渡 */
+        }
+
+        /* 鼠标放上去，小猫会微微放大 */
+        .cat-image:hover {
+            transform: scale(1.03);
+        }
+
+        /* 底部的小提示文字 */
+        .footer-text {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #a0a0a0;
+            letter-spacing: 0.1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 页面文字 -->
+    <h1>保持觉知</h1>
+
+    <!-- 这里引用的就是你刚才准备好的猫猫图片 -->
+    <img src="cat.jpg" alt="可爱的小猫" class="cat-image">
+
+    <div class="footer-text">— 深呼吸，回到当下 —</div>
+
+</body>
+</html>
